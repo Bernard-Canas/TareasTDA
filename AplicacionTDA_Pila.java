@@ -5,7 +5,7 @@ Carnet: 202401637
 import java.util.Scanner;
 import java.util.Stack;
 
-public class AplicacionTDA {
+public class AplicacionTDA_Pila {
     private static Stack<String> texto = new Stack<>();
     private static Stack<String> deshechos = new Stack<>();
     private static Scanner scanner = new Scanner(System.in);
