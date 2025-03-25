@@ -13,7 +13,7 @@ public class AplicacionTDA_Cola {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("SISTEMA DE GESTIÓN DE FILA DE CLIENTES");
+        System.out.println("\nSISTEMA DE GESTIÓN DE FILA DE CLIENTES");
         
         int opcion;
         do {
@@ -22,7 +22,7 @@ public class AplicacionTDA_Cola {
             procesarOpcion(opcion);
         } while (opcion != 4); //Blucle para finalizar el menu
         
-        scanner.close(); //Cerrar el scanner al finalizar
+        scanner.close();//Cerrar el scanner al finalizar
     }
     //Menu principal de opciones
     private static void mostrarMenu() {
@@ -36,7 +36,7 @@ public class AplicacionTDA_Cola {
     //Obtiene y valida la opción ingresada por el usuario
     private static int obtenerOpcion() {
         while (!scanner.hasNextInt()) {
-            System.out.println("Entrada inválida. Por favor ingrese un número.");
+            System.out.println("Opción Invalida");
             scanner.next();
             System.out.print("Elije una opción: ");
         }
